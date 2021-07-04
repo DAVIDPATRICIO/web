@@ -9,7 +9,7 @@ function clearDash(el) {
   clearDash(document.querySelector('.heart__circle2'));
   clearDash(document.querySelector('.heart__heart'));
   
-  var timeline = anime.timeline({ autoplay: true, direction: 'normal', loop: true });
+  var timeline = anime.timeline({ autoplay: true, direction: 'normal'});
   
   timeline
   .add({

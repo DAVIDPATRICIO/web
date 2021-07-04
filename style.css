@@ -30,7 +30,7 @@ h1 {
   text-align: center;
   position: relative;
   float: left;
-  background: rgb(255, 255, 255);
+  background: #fafafa;
   color: rgb(0, 0, 0);
   font-size: 80px;
 }
@@ -39,9 +39,9 @@ h1 span {
   position: absolute;
   right: 0;
   width: 0;
-  background: rgb(255, 255, 255);
+  background: #fafafa;
   border-left: 1px solid #000;
-  animation: escribir 3.7s steps(30) infinite;
+  animation: escribir 3.7s steps(30);
 }
 
 @keyframes escribir {
